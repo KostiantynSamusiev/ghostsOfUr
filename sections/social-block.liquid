@@ -1,0 +1,33 @@
+<div class="social-block">
+  social block
+  <div class="social-block__img">
+    <img src="{{ 'social-block.png' | asset_url }}" />
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Socaial-block",
+    "tag": "section",
+    "class": "socaial-block",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "include_margins",
+        "default": true,
+        "label": "t:sections.apps.settings.include_margins.label"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "social-block"
+      }
+    ]
+  }
+{% endschema %}

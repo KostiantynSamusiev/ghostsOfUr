@@ -1,0 +1,40 @@
+<div class="main-game">
+  123
+  Message: {{ section.settings.message }}
+</div>
+
+{% schema %}
+  {
+    "name": "Main-game",
+    "tag": "section",
+    "class": "main game",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "my_second_id",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "main game"
+      }
+    ]
+  }
+{% endschema %}
