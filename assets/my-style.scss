@@ -1,8 +1,10 @@
-// header {
-//   position: absolute;
-//   width: 100%;
-// }
+header {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 #Subscribe {
-  border: 2px solid green;
+  border: 2px solid red;
 }
