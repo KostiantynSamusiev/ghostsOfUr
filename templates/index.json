@@ -42,6 +42,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -74,7 +75,7 @@
         "template--20096239829270__7f97e390-c597-45ad-bdd2-fd9279c9d560-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "game"
           }
         },
         "template--20096239829270__7f97e390-c597-45ad-bdd2-fd9279c9d560-featured_collection-2": {
