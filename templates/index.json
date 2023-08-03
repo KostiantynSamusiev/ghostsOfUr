@@ -6,8 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Welcome to the World of",
             "heading_size": "h0"
+          }
+        },
+        "821f40d8-76fa-4587-a1c5-8437058449d6": {
+          "type": "text",
+          "settings": {
+            "text": "Ghosts Of Ur",
+            "text_style": "body"
           }
         },
         "button": {
@@ -24,6 +31,7 @@
       },
       "block_order": [
         "heading",
+        "821f40d8-76fa-4587-a1c5-8437058449d6",
         "button"
       ],
       "settings": {
