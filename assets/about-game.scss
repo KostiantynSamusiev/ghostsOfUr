@@ -1,9 +1,32 @@
-.about-game {
+.shopify-section.about-game {
   border-radius: 30px;
   background: #3d3c3c;
+  padding: 127px 16px;
+}
 
+.about-game {
   &__title {
     h2 {
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+
+  &__block {
+    .left-side {
+      .title {
+        h3 {
+          font-size: 20px;
+        }
+      }
+      .about {
+        margin-bottom: 40px;
+        p {
+          color: #a5a5a5;
+          text-align: justify;
+          line-height: 18px;
+        }
+      }
     }
   }
 }
