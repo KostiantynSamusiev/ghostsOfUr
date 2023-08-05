@@ -1,0 +1,13 @@
+.main-game {
+  padding: 0 16px;
+}
+.main-game__left-side {
+  background-color: #3d3c3c;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-game__left-side .pic {
+  width: 50%;
+}
