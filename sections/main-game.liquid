@@ -1,6 +1,32 @@
+{{ 'main-game.css' | asset_url | stylesheet_tag }}
+{{ 'style.css' | asset_url | stylesheet_tag }}
+
 <div class="main-game">
-  123
-  Message: {{ section.settings.message }}
+  <div class="main-game__left-side">
+    <div class="pic">
+      <img class="icon icon-cart-empty" src="{{ 'ghostofur-game.png' | asset_url }}" />
+    </div>
+  </div>
+  <div class="main-game__right-side">
+    <div class="game-name">
+      <p>NAME:</p>
+      <p>Ghosts of Ur</p>
+    </div>
+    <div class="game-price">
+      <p>Price:</p>
+      <p>$119.99</p>
+    </div>
+    <div class="available">
+      Available Now!
+    </div>
+    <div class="about-game">
+      The adventure game, set in 3800BC Sumer, where you play as one of the original nomadic peoples of Western Europe, making your way through the first and most significant of...
+    </div>
+    <div class="options">
+      SKU: gor
+      Type: Board Game
+    </div>
+  </div>
 </div>
 
 {% schema %}
