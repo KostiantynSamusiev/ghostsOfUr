@@ -1,5 +1,26 @@
+{{ 'about-game.css' | asset_url | stylesheet_tag }}
+
+
 <div class="about-game">
-  123
+  <div class="about-game__title">
+    <h2>ABOUT THE GAME</h2>
+  </div>
+
+  <div class="about-game__block">
+    <div class="left-side">
+      <div class="title">
+        <h3>STRATEGY GAME :</h3>
+      </div>
+      <div class="about">
+        <p>As one of six adventurers, each with their own unique talents, you will fight your way through a vast, unrecognizable land filled with dangers and riches. Your goal is to journey through the landscape of Ancient Sumer and find the 4 Ziggurats and collect all of the Map Cards (either through purchase, negotiation, or theft) that will lead you to the great City of Ur where you hope to defeat Nanna the God of Ur.</p>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="pic">
+        <img class="icon icon-cart-empty" src="{{ 'pic.png' | asset_url }}" />
+      </div>
+    </div>
+  </div>
 </div>
 
 
