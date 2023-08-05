@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 .header .header__icon,
 .header .header__icon--cart .icon {
   height: 2.6rem;
