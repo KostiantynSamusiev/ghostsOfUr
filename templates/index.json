@@ -90,12 +90,20 @@
         "message": "Hello!",
         "my_second_id": "Welcome to my shop!"
       }
+    },
+    "52bac2f2-77d5-446a-a58a-80a5836a822c": {
+      "type": "twich-block",
+      "settings": {
+        "message": "Hello!",
+        "my_second_id": "Welcome to my shop!"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "daf60b94-e6b6-43d7-ab46-f75c7d29b3b3",
-    "da587830-cc31-4bf3-a95a-32806114873e"
+    "da587830-cc31-4bf3-a95a-32806114873e",
+    "52bac2f2-77d5-446a-a58a-80a5836a822c"
   ]
 }
