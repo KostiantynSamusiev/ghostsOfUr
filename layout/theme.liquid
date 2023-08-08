@@ -441,6 +441,11 @@
       }
     </script>
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -504,6 +509,12 @@
     {%- endif -%}
 
     {{ 'my-scripts.js' | asset_url | script_tag }}
+
+    <script>
+      $('.read-more').on("click", function() {
+        console.log('works')
+      });
+    </script>
 
   </body>
 </html>
