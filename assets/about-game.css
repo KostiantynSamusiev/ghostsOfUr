@@ -70,6 +70,9 @@ p {
   .shopify-section.about-game .about {
     margin-bottom: 48px;
   }
+  .shopify-section.about-game .about-game__title h2 {
+    font-size: 45px;
+  }
   .shopify-section.about-game .read-more {
     margin-bottom: 35px;
   }
