@@ -103,6 +103,5 @@ p {
   }
   .shopify-section.about-game .about-game__block:nth-child(3), .shopify-section.about-game .about-game__block:nth-child(5) {
     flex-direction: row;
-    color: red;
   }
 }
