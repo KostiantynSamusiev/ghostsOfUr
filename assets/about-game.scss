@@ -8,6 +8,12 @@ p {
 }
 
 .about-game {
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
   &__title {
     h2 {
       text-align: center;
@@ -16,9 +22,6 @@ p {
   }
 
   &__block {
-    .left-side {
-    }
-
     .title {
       h3 {
         font-size: 20px;
@@ -61,12 +64,72 @@ p {
     }
   }
 
-  &__block:nth-child(2) {
+  &__block:nth-child(2),
+  &__block:nth-child(4) {
     margin-bottom: 156px;
+
+    .about {
+      margin-bottom: 35px;
+    }
   }
 
-  &__block:nth-child(3) {
+  &__block:nth-child(3),
+  &__block:nth-child(5) {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .shopify-section.about-game {
+    padding: 127px 36px;
+
+    .about {
+      margin-bottom: 48px;
+    }
+
+    .read-more {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .shopify-section.about-game {
+    padding: 127px 15%;
+
+    .about-game {
+      .title {
+        margin: unset;
+
+        h3 {
+          margin: unset;
+          margin-bottom: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 100% */
+        }
+      }
+
+      &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 136px;
+
+        .left-side,
+        .right-side {
+          width: 49%;
+        }
+
+        .left-side {
+        }
+      }
+
+      &__block:nth-child(3),
+      &__block:nth-child(5) {
+        flex-direction: row;
+      }
+    }
   }
 }
