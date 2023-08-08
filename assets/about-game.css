@@ -7,6 +7,11 @@ p {
   padding: 127px 16px;
 }
 
+.about-game img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .about-game__title h2 {
   text-align: center;
   font-size: 25px;
@@ -47,10 +52,53 @@ p {
   right: 15px;
   top: 12px;
 }
-.about-game__block:nth-child(2) {
+.about-game__block:nth-child(2), .about-game__block:nth-child(4) {
   margin-bottom: 156px;
 }
-.about-game__block:nth-child(3) {
+.about-game__block:nth-child(2) .about, .about-game__block:nth-child(4) .about {
+  margin-bottom: 35px;
+}
+.about-game__block:nth-child(3), .about-game__block:nth-child(5) {
   display: flex;
   flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 750px) {
+  .shopify-section.about-game {
+    padding: 127px 36px;
+  }
+  .shopify-section.about-game .about {
+    margin-bottom: 48px;
+  }
+  .shopify-section.about-game .read-more {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .shopify-section.about-game {
+    padding: 127px 15%;
+  }
+  .shopify-section.about-game .about-game .title {
+    margin: unset;
+  }
+  .shopify-section.about-game .about-game .title h3 {
+    margin: unset;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 100% */
+  }
+  .shopify-section.about-game .about-game__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 136px;
+  }
+  .shopify-section.about-game .about-game__block .left-side,
+  .shopify-section.about-game .about-game__block .right-side {
+    width: 49%;
+  }
+  .shopify-section.about-game .about-game__block:nth-child(3), .shopify-section.about-game .about-game__block:nth-child(5) {
+    flex-direction: row;
+  }
 }
