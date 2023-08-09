@@ -1,5 +1,17 @@
+{{ 'twich-block.css' | asset_url | stylesheet_tag }}
+
+
 <div class="twich-block">
-  123
+  <div class="twich-block__pic">
+    <img class="icon icon-cart-empty" src="{{ 'twich-pic.png' | asset_url }}" />
+
+  </div>
+  <div class="twich-block__title">
+    <img class="icon icon-cart-empty" src="{{ 'twich-title.svg' | asset_url }}" />
+  </div>
+  <div class="twich-block__button">
+    <a href="">JOIN NOW!</a>
+  </div>
 </div>
 
 {% schema %}
