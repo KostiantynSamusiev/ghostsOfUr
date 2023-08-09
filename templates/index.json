@@ -104,14 +104,14 @@
         "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Get updates with our Newsletter",
             "heading_size": "h1"
           }
         },
         "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>We will frequently send updates about the state of the game!!<\/p>"
           }
         },
         "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-email_form-1": {
