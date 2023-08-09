@@ -131,13 +131,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "6e07e648-147b-4b54-9db2-08c50f0522e0": {
-      "type": "game-components",
-      "settings": {
-        "message": "Hello!",
-        "my_second_id": "Welcome to my shop!"
-      }
     }
   },
   "order": [
@@ -146,7 +139,6 @@
     "daf60b94-e6b6-43d7-ab46-f75c7d29b3b3",
     "da587830-cc31-4bf3-a95a-32806114873e",
     "52bac2f2-77d5-446a-a58a-80a5836a822c",
-    "70fa8ca4-196f-4a40-a97d-29dcd6ff96f1",
-    "6e07e648-147b-4b54-9db2-08c50f0522e0"
+    "70fa8ca4-196f-4a40-a97d-29dcd6ff96f1"
   ]
 }
