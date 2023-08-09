@@ -97,6 +97,40 @@
         "message": "Hello!",
         "my_second_id": "Welcome to my shop!"
       }
+    },
+    "70fa8ca4-196f-4a40-a97d-29dcd6ff96f1": {
+      "type": "newsletter",
+      "blocks": {
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-heading-1",
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-paragraph-1",
+        "template--20096239829270__70fa8ca4-196f-4a40-a97d-29dcd6ff96f1-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -104,6 +138,7 @@
     "featured_collection",
     "daf60b94-e6b6-43d7-ab46-f75c7d29b3b3",
     "da587830-cc31-4bf3-a95a-32806114873e",
-    "52bac2f2-77d5-446a-a58a-80a5836a822c"
+    "52bac2f2-77d5-446a-a58a-80a5836a822c",
+    "70fa8ca4-196f-4a40-a97d-29dcd6ff96f1"
   ]
 }
