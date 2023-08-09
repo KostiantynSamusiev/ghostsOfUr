@@ -1,0 +1,21 @@
+.newsletter .newsletter__wrapper {
+  padding: 0 16px;
+}
+.newsletter #contact_form {
+  position: relative;
+}
+.newsletter #contact_form .field__input {
+  background: #fff;
+  border-radius: 5px;
+  border: unset;
+}
+.newsletter #contact_form #Subscribe {
+  position: absolute;
+  border-radius: 25px;
+  background: #4f2bce;
+  top: 58px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 15px; /* 100% */
+  letter-spacing: 0.101px;
+}
