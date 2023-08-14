@@ -9,14 +9,16 @@ p {
 p {
   margin-bottom: 20px;
 }
+section {
+  padding: 100px 16px;
+}
 
 .game-components {
   background-color: white;
-  padding: 100px 0;
   border-radius: 30px;
 
   &__left-side {
-    margin: 0 16px 45px 16px;
+    margin-bottom: 45px;
     .title {
       h2 {
         color: #1a1a1a;
@@ -47,5 +49,43 @@ p {
 
   &__right-side {
     margin: 0 16px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .game-components {
+    &__left-side {
+      .title {
+        h2 {
+          font-size: 45px;
+        }
+      }
+
+      .read-more-button {
+        width: fit-content;
+        padding: 15px 78px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  section {
+    padding: 150px 100px;
+  }
+  .game-components {
+    display: flex;
+    justify-content: space-between;
+    &__left-side {
+      width: 53%;
+    }
+    &__right-side {
+      width: 38%;
+      display: flex;
+      align-items: center;
+      .pic {
+        width: 402px;
+      }
+    }
   }
 }

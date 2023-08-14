@@ -10,13 +10,16 @@ p {
   margin-bottom: 20px;
 }
 
+section {
+  padding: 100px 16px;
+}
+
 .game-components {
   background-color: white;
-  padding: 100px 0;
   border-radius: 30px;
 }
 .game-components__left-side {
-  margin: 0 16px 45px 16px;
+  margin-bottom: 45px;
 }
 .game-components__left-side .title h2 {
   color: #1a1a1a;
@@ -41,4 +44,34 @@ p {
 }
 .game-components__right-side {
   margin: 0 16px;
+}
+
+@media screen and (min-width: 750px) {
+  .game-components__left-side .title h2 {
+    font-size: 45px;
+  }
+  .game-components__left-side .read-more-button {
+    width: fit-content;
+    padding: 15px 78px;
+  }
+}
+@media screen and (min-width: 990px) {
+  section {
+    padding: 150px 100px;
+  }
+  .game-components {
+    display: flex;
+    justify-content: space-between;
+  }
+  .game-components__left-side {
+    width: 53%;
+  }
+  .game-components__right-side {
+    width: 38%;
+    display: flex;
+    align-items: center;
+  }
+  .game-components__right-side .pic {
+    width: 402px;
+  }
 }
