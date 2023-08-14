@@ -134,6 +134,16 @@
     },
     "6e07e648-147b-4b54-9db2-08c50f0522e0": {
       "type": "game-components",
+      "blocks": {
+        "90126585-7b5a-4d07-a3a2-2d5f145d5a0f": {
+          "type": "block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "90126585-7b5a-4d07-a3a2-2d5f145d5a0f"
+      ],
       "settings": {
         "message": "Hello!",
         "my_second_id": "Welcome to my shop!"
