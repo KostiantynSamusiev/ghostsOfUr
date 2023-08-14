@@ -1,4 +1,4 @@
-p {
+.game-components-text {
   color: #1a1a1a;
   font-size: 15px;
   font-style: normal;
@@ -6,16 +6,14 @@ p {
   line-height: 18px; /* 120% */
 }
 
-p {
+.game-components-text {
   margin-bottom: 20px;
-}
-section {
-  padding: 100px 16px;
 }
 
 .game-components {
   background-color: white;
   border-radius: 30px;
+  padding: 100px 16px;
 
   &__left-side {
     margin-bottom: 45px;
@@ -54,6 +52,7 @@ section {
 
 @media screen and (min-width: 750px) {
   .game-components {
+    margin: 0 20px;
     &__left-side {
       .title {
         h2 {
@@ -70,12 +69,11 @@ section {
 }
 
 @media screen and (min-width: 990px) {
-  section {
-    padding: 150px 100px;
-  }
   .game-components {
     display: flex;
     justify-content: space-between;
+    padding: 150px 100px;
+
     &__left-side {
       width: 53%;
     }
