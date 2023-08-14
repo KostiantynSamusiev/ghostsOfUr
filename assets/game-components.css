@@ -7,15 +7,16 @@ p {
 }
 
 p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .game-components {
   background-color: white;
   padding: 100px 0;
+  border-radius: 30px;
 }
 .game-components__left-side {
-  margin: 0 16px;
+  margin: 0 16px 45px 16px;
 }
 .game-components__left-side .title h2 {
   color: #1a1a1a;
@@ -25,4 +26,19 @@ p {
 }
 .game-components__left-side .about {
   color: black;
+}
+.game-components__left-side .read-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #4f2bce;
+  padding: 15px 0;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+}
+.game-components__right-side {
+  margin: 0 16px;
 }
