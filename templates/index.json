@@ -135,7 +135,7 @@
     "a82fec32-f188-406d-b0fc-d7caee0b0f9f": {
       "type": "game-components",
       "settings": {
-        "message": "Hello",
+        "message": "Hello!",
         "my_second_id": "Welcome to my shop!"
       }
     }
