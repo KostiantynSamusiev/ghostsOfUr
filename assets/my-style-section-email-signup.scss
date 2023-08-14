@@ -1,4 +1,5 @@
 .newsletter {
+  margin-bottom: 215px;
   .newsletter__wrapper {
     padding: 0 16px;
   }
@@ -7,9 +8,12 @@
     position: relative;
 
     .field__input {
-      background: #fff;
       border-radius: 5px;
       border: unset;
+    }
+
+    .field__input::after {
+      background: #fff;
     }
 
     #Subscribe {
@@ -22,6 +26,49 @@
       font-size: 15px;
       line-height: 15px; /* 100% */
       letter-spacing: 0.101px;
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter {
+    h2 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 45px; /* 100% */
+    }
+
+    #contact_form {
+      position: relative;
+      max-width: 55rem;
+
+      .field {
+        width: 280px;
+      }
+
+      .field__input {
+        border-radius: 5px;
+        border: unset;
+      }
+
+      .field__input::after {
+        background: #fff;
+      }
+
+      #Subscribe {
+        right: -300px;
+        position: absolute;
+        border-radius: 25px;
+        background: #4f2bce;
+        top: 58px;
+        width: 100%;
+
+        font-size: 15px;
+        line-height: 15px; /* 100% */
+        letter-spacing: 0.101px;
+        top: 0;
+      }
     }
   }
 }
