@@ -1,0 +1,35 @@
+{% schema %}
+  {
+    "name": "Game-components",
+    "tag": "section",
+    "class": "game-components",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "my_second_id",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "game-components"
+      }
+    ]
+  }
+{% endschema %}
