@@ -1,0 +1,39 @@
+<div class="main-info-block">
+  main info
+</div>
+
+{% schema %}
+  {
+    "name": "Main info block",
+    "tag": "section",
+    "class": "main-info-block",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "main-info-block",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Main info block"
+      }
+    ]
+  }
+{% endschema %}
