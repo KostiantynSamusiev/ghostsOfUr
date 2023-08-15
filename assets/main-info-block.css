@@ -1,16 +1,83 @@
-@font-face {
-  font-family: "Crom";
-  src: url("{{ 'Crom.woff2' | asset_url }}") format("woff2");
-}
 .main-info-block {
   position: relative;
 }
 .main-info-block__pic img {
   object-position: 36% 50%;
   object-fit: cover;
-  width: 530px;
+  width: 100%;
   height: 530px;
 }
 .main-info-block__title {
   position: absolute;
+  top: 15px;
+  text-align: center;
+  width: 100%;
+}
+.main-info-block__title h1 {
+  font-family: "Crom";
+  font-size: 45px;
+}
+.main-info-block__sub-title {
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.main-info-block__social-icons {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-info-block__social-icons ul {
+  max-width: 262px;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+  padding: unset;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 750px) {
+  .main-info-block__pic img {
+    object-position: 50% 0;
+    height: 600px;
+  }
+  .main-info-block__title {
+    top: -30px;
+  }
+  .main-info-block__title h1 {
+    font-size: 90px;
+  }
+  .main-info-block__sub-title {
+    font-size: 30px;
+  }
+  .main-info-block__social-icons {
+    top: 150px;
+  }
+  .main-info-block__social-icons ul {
+    max-width: 395px;
+  }
+  .main-info-block__social-icons img {
+    width: 22px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .main-info-block__pic img {
+    height: unset;
+  }
+  .main-info-block__title {
+    top: 20px;
+  }
+  .main-info-block__sub-title {
+    top: 75px;
+  }
+  .main-info-block__social-icons {
+    top: 190px;
+  }
 }

@@ -73,6 +73,13 @@
 
 /* base */
 
+@font-face {
+  font-family: "Crom";
+  src: url("Crom.woff") format("woff"), url("Crom.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
 .no-js:not(html) {
   display: none !important;
 }

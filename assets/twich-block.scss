@@ -1,13 +1,13 @@
-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
 .twich-block {
   padding: 16px;
   position: relative;
   margin-bottom: 130px;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 
   &__pic {
     height: 48vw;
