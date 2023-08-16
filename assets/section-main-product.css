@@ -330,7 +330,9 @@ fieldset.product-form__input .form__label {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 1.5rem 0;
+  /* margin: 1.5rem 0; */
+
+  margin-bottom: 15px;
 }
 
 .product__info-container iframe {
@@ -341,6 +343,12 @@ fieldset.product-form__input .form__label {
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 2.5rem 0;
+
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
 }
 
 .product__text {
@@ -355,11 +363,26 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing {
   text-transform: uppercase;
+  font-size: 13px;
+
+  color: #a5a5a5;
+  font-weight: 600;
+  line-height: 13px; /* 100% */
 }
 
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+}
+
+.product__title > h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .product__title > * {
@@ -372,6 +395,7 @@ a.product__text {
 
 .product__title + .product__text.caption-with-letter-spacing {
   margin-top: -1.5rem;
+  margin-top: 10px;
 }
 
 .product__text.caption-with-letter-spacing + .product__title {
