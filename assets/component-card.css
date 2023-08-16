@@ -203,7 +203,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
-  width: 50%;
 }
 
 .card__heading:last-child {
@@ -336,8 +335,6 @@
   padding-right: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
 }
 
 .card--card.card--media .card__inner .card__information,
@@ -378,7 +375,6 @@
 }
 
 .card-information {
-  text-align: end;
   width: 100%;
 }
 
@@ -389,7 +385,6 @@
 
 .card-information > .price {
   color: rgb(var(--color-foreground));
-  font-size: 10px;
   color: #4f2bce;
 }
 
