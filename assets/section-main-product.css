@@ -1352,6 +1352,11 @@ a.product__text {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+
+  color: #2c9706;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .product--no-media .product__inventory {
