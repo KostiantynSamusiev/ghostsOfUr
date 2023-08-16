@@ -101,7 +101,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="card__content">
+        <div class="card__content">        
           <div class="card__information">
             <h3
               class="card__heading"
@@ -202,6 +202,7 @@
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
+        
         {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
             {%- liquid

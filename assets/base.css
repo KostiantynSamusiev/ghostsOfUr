@@ -561,7 +561,7 @@ hr {
 
 .full-unstyled-link {
   text-decoration: none;
-  color: currentColor;
+  color: black;
   display: block;
 }
 
@@ -581,6 +581,17 @@ details > * {
 
 .visibility-hidden {
   visibility: hidden;
+}
+
+.card-btn {
+  background-color: #4f2bce;
+  display: flex;
+  width: 92%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 5px 0;
+  margin-bottom: 25px;
 }
 
 @media (prefers-reduced-motion) {
@@ -761,6 +772,7 @@ summary::-webkit-details-marker {
 .focus-none {
   box-shadow: none !important;
   outline: 0 !important;
+  background-color: #3d3c3c;
 }
 
 .focus-offset:focus-visible {
