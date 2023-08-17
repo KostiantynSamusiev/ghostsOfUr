@@ -2,6 +2,16 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "e3601dc3-6f84-4d2d-b7a2-585c56d4bdff": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -21,6 +31,7 @@
     }
   },
   "order": [
+    "e3601dc3-6f84-4d2d-b7a2-585c56d4bdff",
     "footer"
   ]
 }
