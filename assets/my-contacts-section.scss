@@ -68,9 +68,24 @@
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (min-width: 749px) {
+  h3 {
+    margin: unset;
+  }
   .my-contacts {
     display: flex;
     flex-wrap: wrap;
+
+    &__contact,
+    &__email,
+    &__adress {
+      width: 33.33%;
+    }
+  }
+}
+
+@media screen and (min-width: 749px) {
+  .my-contacts {
+    margin: 0 120px 60px 120px;
   }
 }
