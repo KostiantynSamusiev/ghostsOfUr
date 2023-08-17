@@ -1,0 +1,68 @@
+.head-title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px; /* 113.333% */
+  margin-bottom: 25px;
+  margin: unset;
+}
+.head-title h3 {
+  margin: unset;
+  font-weight: 700;
+}
+.head-title .title {
+  margin: unset;
+}
+
+.info {
+  color: #a5a5a5;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.my-contacts {
+  margin: 0 16px 60px 16px;
+}
+.my-contacts__main-title {
+  margin-bottom: 65px;
+}
+.my-contacts__main-title .title h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 100% */
+}
+.my-contacts__main-title .sub-title {
+  color: #a5a5a5;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px; /* 100% */
+}
+.my-contacts__email {
+  margin-bottom: 25px;
+}
+.my-contacts__contact h3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 749px) {
+  .my-contacts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

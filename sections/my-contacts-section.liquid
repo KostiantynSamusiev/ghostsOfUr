@@ -1,6 +1,46 @@
+{{ 'my-contacts-section.css' | asset_url | stylesheet_tag }}
+
+
 <div
   class="my-contacts">
-  1234
+  <div
+    class="my-contacts__main-title">
+    <div
+      class="title">
+      <h2>We'D Love To Hear From You</h2>
+    </div>
+    <div
+      class="sub-title">
+      Should you have any Questions, Comments, or Concerns Please contact us at any of the emails or write to the address below! You can also visit any of our active Social Media platforms, We look forward to hearing from you!
+    </div>
+  </div>
+  <div
+    class="my-contacts__contact">
+    <h3>Contact</h3>
+  </div>
+  <div
+    class="my-contacts__email head-title">
+    <div
+      class="title">
+      <h3>Email</h3>
+    </div>
+    <div
+      class="email info">
+      info@ghostsofur.com
+      customerservice@ghostsofur.com
+    </div>
+  </div>
+  <div
+    class="my-contacts__adress">
+    <div
+      class="head-title">
+      <h3>Adress</h3>
+    </div>
+    <div
+      class="adress info">
+      30 Cornelia St Buffalo NY, 14210
+    </div>
+  </div>
 </div>
 
 {% schema %}
