@@ -156,6 +156,13 @@
         "message": "Hello!",
         "my_third_id": "Welcome to my shop!"
       }
+    },
+    "c56cfe63-afab-4b89-9218-69df00443854": {
+      "type": "my-contacts-section",
+      "settings": {
+        "message": "Hello!",
+        "text": "Welcome to my shop!"
+      }
     }
   },
   "order": [
@@ -166,6 +173,7 @@
     "da587830-cc31-4bf3-a95a-32806114873e",
     "52bac2f2-77d5-446a-a58a-80a5836a822c",
     "70fa8ca4-196f-4a40-a97d-29dcd6ff96f1",
-    "6e07e648-147b-4b54-9db2-08c50f0522e0"
+    "6e07e648-147b-4b54-9db2-08c50f0522e0",
+    "c56cfe63-afab-4b89-9218-69df00443854"
   ]
 }
