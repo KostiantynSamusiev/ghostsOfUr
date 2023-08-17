@@ -186,6 +186,12 @@ variant-selects {
 
 fieldset.product-form__input .form__label {
   margin-bottom: 0.2rem;
+
+  color: #a5a5a5;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 13px; /* 100% */
+  text-transform: uppercase;
 }
 
 .product-form__input input[type="radio"] {
@@ -1377,7 +1383,7 @@ a.product__text {
   align-items: center;
   gap: 0.5rem;
 
-  color: #2c9706;
+  /* color: #2c9706; */
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
