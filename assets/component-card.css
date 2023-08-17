@@ -203,6 +203,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
+
+  width: 50%;
 }
 
 .card__heading:last-child {
@@ -335,6 +337,10 @@
   padding-right: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  justify-content: center;
 }
 
 .card--card.card--media .card__inner .card__information,
@@ -376,6 +382,7 @@
 
 .card-information {
   width: 100%;
+  width: 50%;
 }
 
 .card-information > * {
@@ -398,6 +405,17 @@
 
 .card-information > *:not(.visually-hidden:first-child) + *:not(.rating) {
   margin-top: 0.7rem;
+
+  margin: unset;
+  color: #4f2bce;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 140% */
+  text-align: end;
+  margin-right: 25px;
 }
 
 .card-information .caption {

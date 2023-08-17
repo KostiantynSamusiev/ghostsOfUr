@@ -563,6 +563,14 @@ hr {
   text-decoration: none;
   color: black;
   display: block;
+
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px; /* 75% */
+  letter-spacing: 0.101px;
 }
 
 .placeholder {
@@ -1301,10 +1309,10 @@ button.shopify-payment-button__button--unbranded {
   left: var(--buttons-border-width);
   z-index: 1;
   border-radius: var(--buttons-radius);
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width)
-      rgba(var(--color-button), var(--alpha-button-background));
+      rgba(var(--color-button), var(--alpha-button-background)); */
   transition: box-shadow var(--duration-short) ease;
 }
 
@@ -1321,6 +1329,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button--secondary:after {
   --border-opacity: var(--buttons-border-opacity);
+  border-radius: 25px;
 }
 
 .button:focus-visible,
