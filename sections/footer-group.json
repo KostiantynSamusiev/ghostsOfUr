@@ -2,6 +2,13 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "fbdd1852-543b-4e23-a084-af3fc133db4d": {
+      "type": "my-contacts-section",
+      "settings": {
+        "message": "Hello!",
+        "text": "Welcome to my shop!"
+      }
+    },
     "e3601dc3-6f84-4d2d-b7a2-585c56d4bdff": {
       "type": "contact-form",
       "settings": {
@@ -31,6 +38,7 @@
     }
   },
   "order": [
+    "fbdd1852-543b-4e23-a084-af3fc133db4d",
     "e3601dc3-6f84-4d2d-b7a2-585c56d4bdff",
     "footer"
   ]
