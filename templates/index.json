@@ -87,6 +87,7 @@
     },
     "daf60b94-e6b6-43d7-ab46-f75c7d29b3b3": {
       "type": "main-game",
+      "disabled": true,
       "settings": {
         "message": "Hello!",
         "my_second_id": "Welcome to my shop!"
