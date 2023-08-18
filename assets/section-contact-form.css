@@ -37,6 +37,11 @@ h2,
   }
 }
 
+.footer__content-bottom {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
@@ -65,19 +70,29 @@ h2,
   }
 }
 
-/* @media screen and (min-width: 950px) {
-  section {
+@media screen and (min-width: 950px) {
+  .shopify-section-group-footer-group {
     display: flex;
-  }
+    margin: 0 120px;
+    justify-content: space-between;
+    margin-bottom: 70px;
 
-  .map {
-    .iframe-map {
-      height: -webkit-fill-available;
+    .map {
+      margin: unset;
+
+      .iframe-map {
+        /* height: -webkit-fill-available; */
+        height: 318px;
+      }
+    }
+
+    .map,
+    .custom-contact-form {
+      width: 48%;
+    }
+
+    .custom-footer {
+      width: 100%;
     }
   }
-
-  .map,
-  .color-background-1 {
-    width: 50%;
-  }
-} */
+}

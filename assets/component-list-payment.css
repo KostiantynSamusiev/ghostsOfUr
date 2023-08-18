@@ -20,3 +20,13 @@
   display: flex;
   padding: 0.5rem;
 }
+
+@media screen and (min-width: 750px) {
+  .footer__content-bottom-wrapper {
+    padding: usnet;
+  }
+
+  .list-payment__item {
+    padding: 0.3rem;
+  }
+}

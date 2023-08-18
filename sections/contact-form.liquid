@@ -18,15 +18,12 @@
   }
 {%- endstyle -%}
 
-<div
-  class="map">
+<div class="map">
 
-  <div
-    class="map-title">
+  <div class="map-title">
     <h2>map</h2>
   </div>
-  <div
-    class="map-inner">
+  <div class="map-inner">
     <iframe
       class="iframe-map"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5847.6646434770455!2d-78.84282490660706!3d42.876383177999536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3120bf4019041%3A0xadf4cfe14cfb8c45!2s30%20Cornelia%20St%2C%20Buffalo%2C%20NY%2014210%2C%20USA!5e0!3m2!1sen!2sua!4v1692275646295!5m2!1sen!2sua"
@@ -40,18 +37,14 @@
 
 </div>
 
-<div
-  class="color-{{ section.settings.color_scheme }} gradient">
-  <div
-    class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+<div class="color-{{ section.settings.color_scheme }} gradient custom-contact-form">
+  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2
-        class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
       </h2>
     {%- else -%}
-      <h2
-        class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
     {%- liquid
       assign contact_form_class = 'isolate'
@@ -69,8 +62,7 @@
           {{ 'templates.contact.form.post_success' | t }}
         </h2>
       {%- elsif form.errors -%}
-        <div
-          class="form__message">
+        <div class="form__message">
           <h2
             class="form-status caption-large text-body"
             role="alert"
@@ -80,23 +72,17 @@
             {{ 'templates.contact.form.error_heading' | t }}
           </h2>
         </div>
-        <ul
-          class="form-status-list caption-large"
-          role="list">
+        <ul class="form-status-list caption-large" role="list">
           <li>
-            <a
-              href="#ContactForm-email"
-              class="link">
+            <a href="#ContactForm-email" class="link">
               {{ form.errors.translated_fields.email | capitalize }}
               {{ form.errors.messages.email }}
             </a>
           </li>
         </ul>
       {%- endif -%}
-      <div
-        class="contact__fields">
-        <div
-          class="field">
+      <div class="contact__fields">
+        <div class="field">
           <input
             class="field__input"
             autocomplete="name"
@@ -105,12 +91,9 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.name' | t }}">
-          <label
-            class="field__label"
-            for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
-        <div
-          class="field field--with-error">
+        <div class="field field--with-error">
           <input
             autocomplete="email"
             type="email"
@@ -126,21 +109,14 @@
             aria-describedby="ContactForm-email-error"
             {% endif %}
             placeholder="{{ 'templates.contact.form.email' | t }}">
-          <label
-            class="field__label"
-            for="ContactForm-email">
+          <label class="field__label" for="ContactForm-email">
             {{- 'templates.contact.form.email' | t }}
-            <span
-              aria-hidden="true">*</span>
+            <span aria-hidden="true">*</span>
           </label>
           {%- if form.errors contains 'email' -%}
-            <small
-              class="contact__field-error"
-              id="ContactForm-email-error">
-              <span
-                class="visually-hidden">{{ 'accessibility.error' | t }}</span>
-              <span
-                class="form__message">
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">
                 {%- render 'icon-error' -%}
                 {{- form.errors.translated_fields.email | capitalize }}
                 {{ form.errors.messages.email -}}
@@ -149,8 +125,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div
-        class="field">
+      <div class="field">
         <input
           type="tel"
           id="ContactForm-phone"
@@ -160,12 +135,9 @@
           pattern="[0-9\-]*"
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
           placeholder="{{ 'templates.contact.form.phone' | t }}">
-        <label
-          class="field__label"
-          for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
-      <div
-        class="field">
+      <div class="field">
         <textarea
           rows="10"
           id="ContactForm-body"
@@ -174,17 +146,12 @@
           placeholder="{{ 'templates.contact.form.comment' | t }}">
           {{- form.body -}}
         </textarea>
-        <label
-          class="form__label field__label"
-          for="ContactForm-body">
+        <label class="form__label field__label" for="ContactForm-body">
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
-      <div
-        class="contact__button">
-        <button
-          type="submit"
-          class="button">
+      <div class="contact__button">
+        <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
