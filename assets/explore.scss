@@ -1,0 +1,52 @@
+h1 {
+  margin: unset;
+  margin-bottom: 50px;
+}
+
+.explore {
+  background-color: #3d3c3c;
+  padding: 0 16px;
+  &__title {
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px; /* 83.333% */
+    }
+  }
+
+  &__block-continer {
+    .block {
+      margin-bottom: 60px;
+      &__title {
+        color: #fff;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 100% */
+      }
+
+      &__info {
+        color: #a5a5a5;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 120% */
+
+        margin-bottom: 45px;
+      }
+
+      &__pic {
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
