@@ -3,12 +3,20 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "e58c31a7-f881-4a43-a024-754acab5deef": {
+      "type": "explore",
+      "settings": {
+        "message": "Hello!",
+        "explore": "Welcome to my shop!"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e58c31a7-f881-4a43-a024-754acab5deef"
   ]
 }
