@@ -41,6 +41,7 @@ h1 {
 .adventures__block-continer .block__icons ul {
   display: flex;
   list-style-type: none;
+  padding: unset;
 }
 .adventures__block-continer .rules span {
   font-size: 15px;
