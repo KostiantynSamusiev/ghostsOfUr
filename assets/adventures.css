@@ -1,0 +1,75 @@
+h1 {
+  margin: unset;
+  margin-bottom: 50px;
+}
+
+.adventures {
+  background-color: #3d3c3c;
+  margin-bottom: 70px;
+  padding: 70px 16px;
+}
+.adventures__title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 83.333% */
+}
+.adventures .rules-block {
+  margin-bottom: 50px;
+}
+.adventures__block-continer .block {
+  margin-bottom: 60px;
+}
+.adventures__block-continer .block__title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+.adventures__block-continer .block__info {
+  color: #a5a5a5;
+  text-align: justify;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 120% */
+  margin-bottom: 45px;
+}
+.adventures__block-continer .block__icons ul {
+  display: flex;
+  list-style-type: none;
+}
+.adventures__block-continer .rules span {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 750px) {
+  .adventures {
+    padding: 95px 35px;
+  }
+  .adventures__title h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .adventures .rules-wraper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .adventures .rules-wraper .rules-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+  }
+}
+@media screen and (min-width: 950px) {
+  .adventures {
+    padding: 95px 120px;
+  }
+}
