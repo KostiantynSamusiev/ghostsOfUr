@@ -8,16 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "deffae4f-d77f-4713-8105-883a2bb76003": {
-      "type": "game-components-page",
+    "406c3477-4f8b-4134-b275-f128925200cf": {
+      "type": "game-rules",
       "settings": {
         "message": "Hello!",
-        "components-page": "Welcome to my shop!"
+        "game-rules": "Welcome to my shop!"
       }
     }
   },
   "order": [
     "main",
-    "deffae4f-d77f-4713-8105-883a2bb76003"
+    "406c3477-4f8b-4134-b275-f128925200cf"
   ]
 }
