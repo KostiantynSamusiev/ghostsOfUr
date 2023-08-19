@@ -14,10 +14,18 @@
         "message": "Hello!",
         "components-page": "Welcome to my shop!"
       }
+    },
+    "d9b27c8d-7fe6-4f3f-a3d5-5a63f7d60e2a": {
+      "type": "game-rules",
+      "settings": {
+        "message": "Hello!",
+        "game-rules": "Welcome to my shop!"
+      }
     }
   },
   "order": [
     "main",
-    "64f941f0-b670-42cc-91a6-d09d1e4e30c4"
+    "64f941f0-b670-42cc-91a6-d09d1e4e30c4",
+    "d9b27c8d-7fe6-4f3f-a3d5-5a63f7d60e2a"
   ]
 }
