@@ -8,7 +8,7 @@
         "padding_bottom": 28
       }
     },
-    "e65665a9-d55f-427f-a61f-a84460789452": {
+    "4a406a15-3fce-4618-bbd9-01dd1e010ad6": {
       "type": "adventures",
       "settings": {
         "adventures": "Hello!",
@@ -18,6 +18,6 @@
   },
   "order": [
     "main",
-    "e65665a9-d55f-427f-a61f-a84460789452"
+    "4a406a15-3fce-4618-bbd9-01dd1e010ad6"
   ]
 }
