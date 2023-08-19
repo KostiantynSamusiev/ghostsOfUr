@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 50px;
 }
 .adventures__block-continer .block {
-  margin-bottom: 60px;
+  border-bottom: solid 1px white;
 }
 .adventures__block-continer .block__title {
   color: #fff;
@@ -36,18 +36,35 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 120% */
-  margin-bottom: 45px;
+}
+.adventures__block-continer .block__icons {
+  margin-bottom: 60px;
 }
 .adventures__block-continer .block__icons ul {
   display: flex;
   list-style-type: none;
   padding: unset;
+  justify-content: space-between;
 }
-.adventures__block-continer .rules span {
-  font-size: 15px;
-  font-style: normal;
+.adventures__block-continer .block__icons ul li {
+  display: flex;
+  justify-content: center;
+  height: 11vw;
+}
+.adventures__block-continer .block:nth-child(1) {
+  margin-bottom: 3px;
+}
+.adventures__block-continer .block:nth-child(2) {
+  border-top: 1px solid #a5a5a5;
+}
+.adventures__block-continer .with-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+  border-bottom: 1px solid #a5a5a5;
+}
+.adventures__block-continer .with-hero span {
   font-weight: 700;
-  line-height: 18px;
 }
 
 @media screen and (min-width: 750px) {
@@ -58,15 +75,22 @@ h1 {
     font-size: 45px;
     line-height: 45px;
   }
-  .adventures .rules-wraper {
-    display: flex;
-    justify-content: space-between;
+  .adventures .with-hero {
+    flex-direction: row;
   }
-  .adventures .rules-wraper .rules-block {
+  .adventures .with-hero p {
+    margin: unset;
+  }
+  .adventures .block .hero {
+    width: 29%;
+    border-right: 1px solid #a5a5a5;
+    margin-right: 20px;
+    padding-right: 20px;
+    height: fit-content;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32%;
+  }
+  .adventures .block__info {
+    width: 69%;
   }
 }
 @media screen and (min-width: 950px) {
