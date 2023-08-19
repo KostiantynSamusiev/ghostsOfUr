@@ -5,7 +5,8 @@ h1 {
 
 .explore {
   background-color: #3d3c3c;
-  padding: 0 16px;
+  margin-bottom: 70px;
+  padding: 70px 16px;
 }
 .explore__title h1 {
   color: #fff;
@@ -37,8 +38,22 @@ h1 {
 }
 .explore__block-continer .block__pic {
   border-radius: 10px;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 750px) {
+  .explore {
+    padding: 95px 35px;
+  }
+  .explore__title h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .explore {
+    padding: 95px 120px;
+  }
 }
