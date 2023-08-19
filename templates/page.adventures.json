@@ -14,10 +14,18 @@
         "message": "Hello!",
         "components-page": "Welcome to my shop!"
       }
+    },
+    "e65665a9-d55f-427f-a61f-a84460789452": {
+      "type": "adventures",
+      "settings": {
+        "adventures": "Hello!",
+        "interesting-variants": "Welcome to my shop!"
+      }
     }
   },
   "order": [
     "main",
-    "de0f04ec-117c-4c1c-b02e-a4b9465340d9"
+    "de0f04ec-117c-4c1c-b02e-a4b9465340d9",
+    "e65665a9-d55f-427f-a61f-a84460789452"
   ]
 }
