@@ -1,0 +1,39 @@
+<div>
+  123
+</div>
+
+{% schema %}
+  {
+    "name": "Explore",
+    "tag": "section",
+    "class": "explore-block",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "explore",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Explore"
+      }
+    ]
+  }
+{% endschema %}

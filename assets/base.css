@@ -781,7 +781,8 @@ summary::-webkit-details-marker {
 .focus-none {
   box-shadow: none !important;
   outline: 0 !important;
-  background-color: #3d3c3c;
+
+  /* background-color: #3d3c3c; */
 }
 
 .focus-offset:focus-visible {
