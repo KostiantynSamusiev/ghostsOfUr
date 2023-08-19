@@ -7,17 +7,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "4a406a15-3fce-4618-bbd9-01dd1e010ad6": {
-      "type": "adventures",
-      "settings": {
-        "adventures": "Hello!",
-        "interesting-variants": "Welcome to my shop!"
-      }
     }
   },
   "order": [
-    "main",
-    "4a406a15-3fce-4618-bbd9-01dd1e010ad6"
+    "main"
   ]
 }
