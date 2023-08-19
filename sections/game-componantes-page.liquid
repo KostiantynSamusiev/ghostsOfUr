@@ -1,0 +1,41 @@
+{{ 'game-components-page.css' | asset_url | stylesheet_tag }}
+
+<div>
+  123
+</div>
+
+{% schema %}
+  {
+    "name": "Game-components-page",
+    "tag": "section",
+    "class": "game-components-page",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "gameComponentsPage",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "game-components-page"
+      }
+    ]
+  }
+{% endschema %}
