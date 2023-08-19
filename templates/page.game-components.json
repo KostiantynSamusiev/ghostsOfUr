@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "406c3477-4f8b-4134-b275-f128925200cf": {
+      "type": "game-rules",
+      "settings": {
+        "message": "Hello!",
+        "game-rules": "Welcome to my shop!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "406c3477-4f8b-4134-b275-f128925200cf"
+  ]
+}
