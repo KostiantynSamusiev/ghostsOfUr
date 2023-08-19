@@ -1,0 +1,39 @@
+<div class="game-rules">
+  game-rules
+</div>
+
+{% schema %}
+  {
+    "name": "game-rules",
+    "tag": "section",
+    "class": "game-rules",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "message",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "game-rules",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "game-rules"
+      }
+    ]
+  }
+{% endschema %}
