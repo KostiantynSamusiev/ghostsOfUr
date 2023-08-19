@@ -3,12 +3,12 @@ h1 {
   margin-bottom: 50px;
 }
 
-.explore {
+.game-components-page {
   background-color: #3d3c3c;
   margin-bottom: 70px;
   padding: 70px 16px;
 }
-.explore__title h1 {
+.game-components-page__title h1 {
   color: #fff;
   text-align: center;
   font-size: 30px;
@@ -16,17 +16,17 @@ h1 {
   font-weight: 700;
   line-height: 25px; /* 83.333% */
 }
-.explore__block-continer .block {
+.game-components-page__block-continer .block {
   margin-bottom: 60px;
 }
-.explore__block-continer .block__title {
+.game-components-page__block-continer .block__title {
   color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 100% */
 }
-.explore__block-continer .block__info {
+.game-components-page__block-continer .block__info {
   color: #a5a5a5;
   text-align: justify;
   font-family: Montserrat;
@@ -36,7 +36,7 @@ h1 {
   line-height: 18px; /* 120% */
   margin-bottom: 45px;
 }
-.explore__block-continer .block__pic {
+.game-components-page__block-continer .block__pic {
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -44,16 +44,16 @@ h1 {
 }
 
 @media screen and (min-width: 750px) {
-  .explore {
+  .game-components-page {
     padding: 95px 35px;
   }
-  .explore__title h1 {
+  .game-components-page__title h1 {
     font-size: 45px;
     line-height: 45px;
   }
 }
 @media screen and (min-width: 950px) {
-  .explore {
+  .game-components-page {
     padding: 95px 120px;
   }
 }
