@@ -1,0 +1,40 @@
+{{ 'contact.css' | asset_url | stylesheet_tag }}
+
+
+<div class="contct"></div>
+
+{% schema %}
+  {
+    "name": "contact",
+    "tag": "section",
+    "class": "contact-block",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "contact",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "contact-custom",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "contact"
+      }
+    ]
+  }
+{% endschema %}
