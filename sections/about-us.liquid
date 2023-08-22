@@ -1,0 +1,39 @@
+<div class="about-us">
+  about-us
+</div>
+
+{% schema %}
+  {
+    "name": "about-us",
+    "tag": "section",
+    "class": "about-us-block",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My settings"
+      }, {
+        "type": "text",
+        "id": "about-us",
+        "label": "Message",
+        "default": "Hello!"
+      }, {
+        "type": "textarea",
+        "id": "about-us-custom",
+        "label": "Welcome message",
+        "default": "Welcome to my shop!"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "block"
+      }
+    ],
+    "presets": [
+      {
+        "name": "about-us"
+      }
+    ]
+  }
+{% endschema %}
