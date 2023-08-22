@@ -1,5 +1,6 @@
 .about-us {
   padding: 0 16px;
+  width: -webkit-fill-available;
 }
 .about-us img {
   object-fit: cover;
