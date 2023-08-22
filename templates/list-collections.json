@@ -1,12 +1,5 @@
 {
   "sections": {
-    "a5b7577f-dce4-49a1-882c-6214434b08e4": {
-      "type": "contact",
-      "settings": {
-        "my-contact": "Hello!",
-        "my-contact-custom": "Welcome to my shop!"
-      }
-    },
     "main": {
       "type": "main-list-collections",
       "custom_css": [
@@ -22,7 +15,6 @@
     }
   },
   "order": [
-    "a5b7577f-dce4-49a1-882c-6214434b08e4",
     "main"
   ]
 }
