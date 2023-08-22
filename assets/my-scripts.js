@@ -2,6 +2,5 @@ console.log('hi')
 
 
 $('.read-more').on("click", function () {
-    console.log('clicked')
-
+    $('.about p').toggleClass("read-more-text", 1000, "easeOutSine");
 });

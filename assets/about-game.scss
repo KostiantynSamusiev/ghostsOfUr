@@ -6,6 +6,10 @@ p {
   overflow: hidden;
 }
 
+.read-more-text {
+  -webkit-line-clamp: unset;
+}
+
 .shopify-section.about-game {
   background: #3d3c3c;
   padding: 127px 16px;
