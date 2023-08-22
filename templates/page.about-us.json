@@ -2,13 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "8429565c-7c6f-4889-9ba0-961fe7dfd7d6": {
+      "type": "about-us",
+      "settings": {
+        "about-us": "Hello!",
+        "about-us-custom": "Welcome to my shop!"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8429565c-7c6f-4889-9ba0-961fe7dfd7d6"
   ]
 }
