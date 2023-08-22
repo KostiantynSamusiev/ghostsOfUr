@@ -72,7 +72,7 @@
 }
 
 .footer__localization:empty + .footer__column--info {
-  align-items: center;
+  align-items: end;
 }
 
 .footer__localization:empty + .payments {
