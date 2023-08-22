@@ -1,5 +1,9 @@
 p {
   margin: unset;
+  display: -webkit-box;
+  -webkit-line-clamp: 13;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .shopify-section.about-game {
