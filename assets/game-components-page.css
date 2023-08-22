@@ -4,7 +4,6 @@ h1 {
 }
 
 .game-components-page {
-  background-color: #3d3c3c;
   margin-bottom: 70px;
   padding: 70px 16px;
 }
@@ -42,6 +41,10 @@ h1 {
   align-items: center;
   justify-content: center;
   background: white;
+  height: 230px;
+}
+.game-components-page__block-continer .block__pic img {
+  width: 250px;
 }
 
 @media screen and (min-width: 750px) {
@@ -56,5 +59,11 @@ h1 {
 @media screen and (min-width: 950px) {
   .game-components-page {
     padding: 95px 120px;
+  }
+  .game-components-page__block-continer .block__pic {
+    height: 344px;
+  }
+  .game-components-page__block-continer .block__pic img {
+    width: 450px;
   }
 }

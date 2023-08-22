@@ -4,7 +4,7 @@ h1 {
 }
 
 .game-components-page {
-  background-color: #3d3c3c;
+  // background-color: #3d3c3c;
   margin-bottom: 70px;
   padding: 70px 16px;
   &__title {
@@ -47,6 +47,10 @@ h1 {
         align-items: center;
         justify-content: center;
         background: white;
+        height: 230px;
+        img {
+          width: 250px;
+        }
       }
     }
   }
@@ -61,11 +65,33 @@ h1 {
         line-height: 45px;
       }
     }
+
+    // &__block-continer {
+    //   .block {
+    //     &__pic {
+    //       img {
+    //         width: 300px;
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 
 @media screen and (min-width: 950px) {
   .game-components-page {
     padding: 95px 120px;
+
+    &__block-continer {
+      .block {
+        &__pic {
+          height: 344px;
+
+          img {
+            width: 450px;
+          }
+        }
+      }
+    }
   }
 }
