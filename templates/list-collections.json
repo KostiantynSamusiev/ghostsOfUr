@@ -1,5 +1,12 @@
 {
   "sections": {
+    "1fe22d22-8864-4e71-9c6c-b25a9381a852": {
+      "type": "contact",
+      "settings": {
+        "my-contact": "Hello!",
+        "my-contact-custom": "Welcome to my shop!"
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "custom_css": [
@@ -15,6 +22,7 @@
     }
   },
   "order": [
+    "1fe22d22-8864-4e71-9c6c-b25a9381a852",
     "main"
   ]
 }
