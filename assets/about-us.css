@@ -44,7 +44,7 @@
 }
 @media screen and (min-width: 950px) {
   .about-us {
-    padding: 0 280px;
+    padding: 0 120px;
   }
   .about-us__info-container {
     display: flex;
