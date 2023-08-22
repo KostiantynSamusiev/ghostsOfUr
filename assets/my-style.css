@@ -44,7 +44,7 @@ img {
 @media screen and (min-width: 990px) {
   .header--top-center {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "heading navigation icons";
   }
   .header--top-center .header__heading-link,

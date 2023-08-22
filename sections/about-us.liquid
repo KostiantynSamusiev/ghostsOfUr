@@ -1,5 +1,29 @@
+{{ 'about-us.css' | asset_url | stylesheet_tag }}
+
 <div class="about-us">
-  about-us
+  <div class="about-us__title">
+    <h1>About Ghosts Of Ur LLC</h1>
+  </div>
+  <div class="about-us__info">
+    <p>
+      Our dedicated creative team is composed of passionate individuals based in Buffalo, NY. With unwavering determination, we devote five days a week to bring our board game to life!
+
+    </p>
+  </div>
+  <div class="about-us__info-container">
+    <div class="block">
+      <img class="icon icon-cart-empty" src="{{ 'pic-doors.png' | asset_url }}" />
+    </div>
+    <div class="block">
+      <p>To give you a firsthand experience of our adventure game, we currently host live streams on Twitch every Tuesday through Friday at 8 am EST. During these streams, you have the opportunity to actively engage with us by asking questions, sharing comments, or expressing any concerns you may have. We value your feedback and strive to address them in real-time. Moreover, we encourage you to join us on our Twitch channel, even if it's just to hang out and enjoy the game with our team.
+      </p>
+      <p>As an exciting bonus, at the conclusion of each live game, you can participate in our thrilling marble race by typing "!play" for a chance to win exclusive Ghosts of Ur merchandise. We can't wait to have you as part of our community!</p>
+
+    </div>
+    <div class="block">
+      <img class="icon icon-cart-empty" src="{{ 'factory.png' | asset_url }}" />
+    </div>
+  </div>
 </div>
 
 {% schema %}
