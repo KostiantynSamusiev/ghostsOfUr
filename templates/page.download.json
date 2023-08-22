@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "de0f04ec-117c-4c1c-b02e-a4b9465340d9": {
+      "type": "game-components-page",
+      "settings": {
+        "message": "Hello!",
+        "components-page": "Welcome to my shop!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "de0f04ec-117c-4c1c-b02e-a4b9465340d9"
+  ]
+}
