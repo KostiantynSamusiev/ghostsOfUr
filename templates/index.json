@@ -139,6 +139,7 @@
         "template--20096239829270__45af505d-8380-4281-94b2-690389603751-buy_buttons-1",
         "template--20096239829270__45af505d-8380-4281-94b2-690389603751-share-1"
       ],
+      "disabled": true,
       "settings": {
         "product": "test-prodect",
         "color_scheme": "",
