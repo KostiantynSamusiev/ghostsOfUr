@@ -51,7 +51,7 @@
 
 .footer__content-bottom-wrapper {
   display: flex;
-  width: 99%;
+  width: 100%;
 }
 
 @media screen and (max-width: 749px) {
