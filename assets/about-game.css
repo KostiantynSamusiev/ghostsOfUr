@@ -1,7 +1,7 @@
 p {
   margin: unset;
   display: -webkit-box;
-  -webkit-line-clamp: 13;
+  -webkit-line-clamp: 11;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -45,6 +45,7 @@ p {
   padding: 16px 126px 16px 30px;
   position: relative;
   margin-bottom: 70px;
+  cursor: pointer;
 }
 .about-game__block .read-more p {
   font-size: 15px;
