@@ -42,6 +42,7 @@ h1 {
         font-style: normal;
         font-weight: 400;
         line-height: 18px; /* 120% */
+        margin-bottom: 50px;
       }
 
       &__icons {
@@ -75,6 +76,13 @@ h1 {
       flex-direction: column;
       padding: 70px 0;
       border-bottom: 1px solid #a5a5a5;
+      p {
+        color: #a5a5a5;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
 
       span {
         font-weight: 700;
@@ -117,6 +125,6 @@ h1 {
 
 @media screen and (min-width: 950px) {
   .adventures {
-    padding: 95px 120px;
+    padding: 95px 200px;
   }
 }
