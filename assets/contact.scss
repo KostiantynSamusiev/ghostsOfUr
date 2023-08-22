@@ -1,16 +1,16 @@
-.contact {
+.my-contact {
   margin-top: 95px;
   visibility: hidden;
 }
 
 @media screen and (min-width: 750px) {
-  .contact {
+  .my-contact {
     margin-top: 150px;
   }
 }
 
 @media screen and (min-width: 950px) {
-  .contact {
+  .my-contact {
     margin-top: 70px;
   }
 }
