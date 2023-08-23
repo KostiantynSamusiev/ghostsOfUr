@@ -18,6 +18,17 @@
     display: none;
   }
 
+  .product__text:nth-child(7) {
+    color: #2c9706;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px; /* 100% */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
   .product__media-wrapper {
     margin-bottom: 60px;
   }
