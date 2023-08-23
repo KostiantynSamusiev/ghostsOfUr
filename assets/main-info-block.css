@@ -46,7 +46,7 @@
 @media screen and (min-width: 750px) {
   .main-info-block__pic img {
     object-position: 50% 0;
-    height: 600px;
+    height: 70vw;
   }
   .main-info-block__title {
     top: -30px;
@@ -68,9 +68,6 @@
   }
 }
 @media screen and (min-width: 950px) {
-  .main-info-block__pic img {
-    height: unset;
-  }
   .main-info-block__title {
     top: 20px;
   }
