@@ -183,6 +183,13 @@
           "settings": {
           }
         },
+        "5bb3597f-561b-4b9f-96d7-4e3a2094f76d": {
+          "type": "text",
+          "settings": {
+            "text": "Available Now!",
+            "text_style": "body"
+          }
+        },
         "2ac160dd-05fb-4c16-88fb-fd69f57eac02": {
           "type": "text",
           "settings": {
@@ -229,6 +236,7 @@
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-title-1",
         "2e6ffcba-e474-4be3-9494-08d1854d730a",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-price-1",
+        "5bb3597f-561b-4b9f-96d7-4e3a2094f76d",
         "2ac160dd-05fb-4c16-88fb-fd69f57eac02",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-variant_picker-1",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-quantity_selector-1",
