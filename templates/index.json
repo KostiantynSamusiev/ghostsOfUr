@@ -161,7 +161,7 @@
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
+            "text": "Name:",
             "text_style": "uppercase"
           }
         },
@@ -169,6 +169,13 @@
           "type": "title",
           "settings": {
             "heading_size": "h1"
+          }
+        },
+        "2e6ffcba-e474-4be3-9494-08d1854d730a": {
+          "type": "text",
+          "settings": {
+            "text": "PRICE:",
+            "text_style": "body"
           }
         },
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-price-1": {
@@ -192,13 +199,14 @@
         },
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-quantity_selector-1": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-buy_buttons-1": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-share-1": {
@@ -219,6 +227,7 @@
       "block_order": [
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-text-1",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-title-1",
+        "2e6ffcba-e474-4be3-9494-08d1854d730a",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-price-1",
         "2ac160dd-05fb-4c16-88fb-fd69f57eac02",
         "template--20096239829270__d3b9c679-654a-401d-8532-a99e3105afbd-variant_picker-1",
