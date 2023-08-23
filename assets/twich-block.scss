@@ -1,7 +1,13 @@
-.twich-block {
-  padding: 16px;
-  position: relative;
+.stream-wraper {
   margin-bottom: 130px;
+}
+.twich {
+  margin-bottom: 10px;
+}
+
+.twich-block {
+  padding: 0 16px;
+  position: relative;
 
   img {
     object-fit: cover;
@@ -17,9 +23,15 @@
     }
   }
 
+  .steam {
+    img {
+      border: 3px solid #36729d;
+    }
+  }
+
   &__title {
     position: absolute;
-    width: 83px;
+    width: 112px;
     bottom: 86px;
     left: 50%;
     transform: translate(-50%, 0);
@@ -47,6 +59,13 @@
       text-decoration: none;
     }
   }
+
+  .steam-button {
+    background-color: white;
+    a {
+      color: black;
+    }
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -70,16 +89,37 @@
 }
 
 @media screen and (min-width: 990px) {
+  .stream-wraper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
   .twich-block {
+    padding: unset;
+    width: 49.3%;
+    &__pic {
+      max-height: 24vw;
+    }
     &__title {
-      width: 338px;
-      bottom: 210px;
+      width: 160px;
+      // bottom: 125px;
+
+      bottom: unset;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -40%);
     }
 
     &__button {
-      bottom: 132px;
+      // bottom: 75px;
+
+      bottom: unset;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -60%);
       a {
-        padding: 17px 162px;
+        padding: 17px 80px;
       }
     }
   }

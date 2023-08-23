@@ -1,7 +1,14 @@
-.twich-block {
-  padding: 16px;
-  position: relative;
+.stream-wraper {
   margin-bottom: 130px;
+}
+
+.twich {
+  margin-bottom: 10px;
+}
+
+.twich-block {
+  padding: 0 16px;
+  position: relative;
 }
 .twich-block img {
   object-fit: cover;
@@ -15,9 +22,12 @@
   border-radius: 30px;
   border: 2px solid #9146ff;
 }
+.twich-block .steam img {
+  border: 3px solid #36729d;
+}
 .twich-block__title {
   position: absolute;
-  width: 83px;
+  width: 112px;
   bottom: 86px;
   left: 50%;
   transform: translate(-50%, 0);
@@ -42,6 +52,12 @@
   letter-spacing: 0.101px;
   text-decoration: none;
 }
+.twich-block .steam-button {
+  background-color: white;
+}
+.twich-block .steam-button a {
+  color: black;
+}
 
 @media screen and (min-width: 750px) {
   .twich-block__pic {
@@ -59,14 +75,32 @@
   }
 }
 @media screen and (min-width: 990px) {
+  .stream-wraper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .twich-block {
+    padding: unset;
+    width: 49.3%;
+  }
+  .twich-block__pic {
+    max-height: 24vw;
+  }
   .twich-block__title {
-    width: 338px;
-    bottom: 210px;
+    width: 160px;
+    bottom: unset;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
   }
   .twich-block__button {
-    bottom: 132px;
+    bottom: unset;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
   }
   .twich-block__button a {
-    padding: 17px 162px;
+    padding: 17px 80px;
   }
 }
