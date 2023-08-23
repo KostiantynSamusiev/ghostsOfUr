@@ -1162,14 +1162,8 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 0;
   left: 0;
-  /* height: 100%;
-  width: 100%; */
-
-  width: 166.887px;
-  height: 142.016px;
-  left: 50%;
-  top: 5%;
-  transform: translate(-50%, -5%);
+  height: 100%;
+  width: 100%;
 }
 
 .media > img {
@@ -1216,10 +1210,6 @@ summary::-webkit-details-marker {
   .media model-viewer {
     width: 339.611px;
     height: 289px;
-
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
   }
 }
 
