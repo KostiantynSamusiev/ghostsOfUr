@@ -1559,6 +1559,7 @@ a.product__text {
   display: block;
   position: relative;
   background-color: #3d3c3c;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 750px) {
