@@ -3,6 +3,17 @@
     font-weight: 700;
   }
 
+  .product__text:nth-child(1),
+  .product__text:nth-child(3) {
+    color: #a5a5a5;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px; /* 100% */
+    text-transform: uppercase;
+  }
+
   .product__media-wrapper {
     margin-bottom: 60px;
   }
@@ -16,6 +27,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 13px; /* 100% */
+    text-transform: none;
   }
 
   .product__media {
@@ -39,16 +51,6 @@
 
   .product-media-container .product__modal-opener {
     height: 152px;
-  }
-
-  .product__text {
-    color: #a5a5a5;
-    font-family: Montserrat;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 13px; /* 100% */
-    text-transform: uppercase;
   }
 }
 

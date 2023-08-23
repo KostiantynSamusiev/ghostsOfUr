@@ -1,6 +1,16 @@
 .future-product-my h2 {
   font-weight: 700;
 }
+.future-product-my .product__text:nth-child(1),
+.future-product-my .product__text:nth-child(3) {
+  color: #a5a5a5;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px; /* 100% */
+  text-transform: uppercase;
+}
 .future-product-my .product__media-wrapper {
   margin-bottom: 60px;
 }
@@ -13,6 +23,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 13px; /* 100% */
+  text-transform: none;
 }
 .future-product-my .product__media img {
   width: 166.887px;
@@ -31,15 +42,6 @@
 }
 .future-product-my .product-media-container .product__modal-opener {
   height: 152px;
-}
-.future-product-my .product__text {
-  color: #a5a5a5;
-  font-family: Montserrat;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 13px; /* 100% */
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 990px) {
