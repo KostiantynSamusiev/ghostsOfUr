@@ -45,6 +45,20 @@ p {
       }
     }
 
+    .pic {
+      .gallery {
+        margin: 0 -16px 0 0;
+        cursor: pointer;
+        .slick-list {
+          padding: 0px 50px 0 0 !important;
+        }
+
+        .gallery-block {
+          margin: 0 5px;
+        }
+      }
+    }
+
     .read-more {
       display: flex;
       border-radius: 30px;
@@ -98,6 +112,20 @@ p {
       margin-bottom: 48px;
     }
 
+    .pic {
+      .gallery {
+        margin: 0 -36px 0 0;
+
+        .slick-list {
+          padding: 0px 200px 0 0 !important;
+        }
+
+        .gallery-block {
+          width: 245px !important;
+        }
+      }
+    }
+
     .read-more {
       margin-bottom: 35px;
     }
@@ -118,6 +146,19 @@ p {
           font-style: normal;
           font-weight: 700;
           line-height: 20px; /* 100% */
+        }
+      }
+
+      .pic {
+        .gallery {
+          margin: 0 -240px 0 0;
+
+          .slick-list {
+            padding: 0px 240px 0 0 !important;
+          }
+
+          .gallery-block {
+          }
         }
       }
 
