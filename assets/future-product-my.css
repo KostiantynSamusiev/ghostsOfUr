@@ -11,6 +11,9 @@
   line-height: 13px; /* 100% */
   text-transform: uppercase;
 }
+.future-product-my .rte {
+  display: none;
+}
 .future-product-my .product__media-wrapper {
   margin-bottom: 60px;
 }
