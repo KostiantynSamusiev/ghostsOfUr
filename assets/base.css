@@ -71,10 +71,6 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
-.cart__dynamic-checkout-buttons div[role="button"] {
-  border-radius: 25px !important;
-}
-
 /* base */
 
 @font-face {
