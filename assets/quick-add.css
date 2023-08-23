@@ -140,6 +140,7 @@
 
 quick-add-modal .product:not(.featured-product) .product__view-details {
   display: block;
+  color: white;
 }
 
 quick-add-modal .quick-add-hidden,
