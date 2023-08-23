@@ -1205,12 +1205,6 @@ summary::-webkit-details-marker {
   .media--cropped {
     padding-bottom: 63%;
   }
-
-  .media > *:not(.zoom):not(.deferred-media__poster-button),
-  .media model-viewer {
-    width: 339.611px;
-    height: 289px;
-  }
 }
 
 deferred-media {
