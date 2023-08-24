@@ -52,6 +52,15 @@
   letter-spacing: 0.101px;
   text-decoration: none;
 }
+.twich-block__button:hover {
+  background-color: #2f1751;
+}
+.twich-block .steam-button:hover {
+  background-color: #36729d;
+}
+.twich-block .steam-button:hover a {
+  color: white;
+}
 .twich-block .steam-button {
   background-color: white;
 }

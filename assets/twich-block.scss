@@ -60,6 +60,17 @@
     }
   }
 
+  &__button:hover {
+    background-color: #2f1751;
+  }
+
+  .steam-button:hover {
+    background-color: #36729d;
+    a {
+      color: white;
+    }
+  }
+
   .steam-button {
     background-color: white;
     a {
