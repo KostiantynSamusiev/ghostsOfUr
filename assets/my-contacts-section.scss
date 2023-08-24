@@ -75,7 +75,7 @@
   .my-contacts {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 120px 0px 120px;
+    margin: 0 0 0 0;
 
     &__contact,
     &__email,
@@ -87,6 +87,6 @@
 
 @media screen and (min-width: 749px) {
   .my-contacts {
-    margin: 0 120px 0px 120px;
+    // margin: 0 120px 0px 120px;
   }
 }
