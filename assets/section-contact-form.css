@@ -36,6 +36,7 @@ h2,
 
   .iframe-map {
     /* width: 91.5vw; */
+    border-radius: 6px;
     width: 100%;
     height: 50vw;
   }
