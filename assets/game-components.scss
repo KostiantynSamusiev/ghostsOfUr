@@ -19,6 +19,7 @@
   &__left-side {
     margin-bottom: 45px;
     .title {
+      margin-bottom: 30px;
       h2 {
         color: #1a1a1a;
         font-size: 25px;
@@ -84,7 +85,10 @@
       display: flex;
       align-items: center;
       .pic {
-        width: 402px;
+        width: 100%;
+        img {
+          width: 100%;
+        }
       }
     }
   }

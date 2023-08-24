@@ -19,6 +19,9 @@
 .game-components__left-side {
   margin-bottom: 45px;
 }
+.game-components__left-side .title {
+  margin-bottom: 30px;
+}
 .game-components__left-side .title h2 {
   color: #1a1a1a;
   font-size: 25px;
@@ -72,6 +75,9 @@
     align-items: center;
   }
   .game-components__right-side .pic {
-    width: 402px;
+    width: 100%;
+  }
+  .game-components__right-side .pic img {
+    width: 100%;
   }
 }
