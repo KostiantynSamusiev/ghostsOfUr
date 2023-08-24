@@ -305,8 +305,11 @@ fieldset.product-form__input .form__label {
   color: white;
 }
 
-.product-form__submit:hover {
+.my-btn-style:hover {
   background: #43299f;
+  box-shadow: unset;
+
+  --border-opacity: unset;
 }
 
 .no-js .product-form__submit.button--secondary {

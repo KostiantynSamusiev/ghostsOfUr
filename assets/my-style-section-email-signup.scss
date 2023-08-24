@@ -1,3 +1,10 @@
+.my-btn-style:hover {
+  background: #43299f !important;
+  box-shadow: unset;
+
+  --border-opacity: unset;
+}
+
 .newsletter {
   margin-bottom: 215px;
   .newsletter__wrapper {
@@ -20,6 +27,7 @@
       position: absolute;
       border-radius: 25px;
       background: #4f2bce;
+      color: white;
       top: 58px;
       width: 100%;
 
