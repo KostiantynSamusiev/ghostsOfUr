@@ -112,6 +112,12 @@ body:has(.section-header .drawer-menu)
   max-width: 100%;
 }
 
+.my-btn-style:hover {
+  background: #43299f !important;
+  box-shadow: unset;
+  --border-opacity: unset;
+}
+
 .page-width.drawer-menu {
   max-width: 100%;
 }
