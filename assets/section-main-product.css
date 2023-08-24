@@ -305,6 +305,10 @@ fieldset.product-form__input .form__label {
   color: white;
 }
 
+.product-form__submit:hover {
+  background: #43299f;
+}
+
 .no-js .product-form__submit.button--secondary {
   --color-button: inherit;
   --color-button-text: inherit;
@@ -388,7 +392,8 @@ a.product__text {
 .product__title > h1 {
   color: #fff;
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 13px;
+  line-height: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
