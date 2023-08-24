@@ -1,7 +1,13 @@
-$('.read-more').on("click", function () {
-  $('.about p').toggleClass("read-more-text", 1000, "easeOutSine");
-});
+$(window).on("click", function (e) {
 
+  let parentBlock = $(e.target).closest('.right-side');
+  let btnReadMore = $('.read-more')
+
+  if (btnReadMore) {
+    parentBlock.find('.about p').toggleClass("read-more-text", 1000, "easeOutSine");
+  }
+
+});
 
 $(document).ready(function () {
   $('.gallery').slick({
