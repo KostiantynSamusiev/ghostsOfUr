@@ -12,6 +12,8 @@ $(window).on("click", function (e) {
 $(document).ready(function () {
   $('.gallery').slick({
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
     slidesToShow: 2,
     centerMode: true,
     arrows: false,
