@@ -22,9 +22,10 @@
   display: inline-block;
   margin: 0 1rem 0 0;
 
-  font-size: 30px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 700;
+  line-height: 14px; /* 140% */
 }
 
 .price__regular .price-item--regular {
