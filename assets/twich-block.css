@@ -91,22 +91,21 @@
   }
   .twich-block {
     padding: unset;
-    width: 49.3%;
   }
   .twich-block__pic {
-    max-height: 24vw;
+    max-height: unset;
   }
   .twich-block__title {
-    width: 160px;
+    width: 500px;
     bottom: unset;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -40%);
   }
   .twich-block__button {
     bottom: unset;
     left: 50%;
-    top: 60%;
+    top: 73%;
     transform: translate(-50%, -60%);
   }
   .twich-block__button a {

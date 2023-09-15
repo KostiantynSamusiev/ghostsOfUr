@@ -108,17 +108,18 @@
 
   .twich-block {
     padding: unset;
-    width: 49.3%;
+    // width: 49.3%;
     &__pic {
-      max-height: 24vw;
+      // max-height: 24vw;
+      max-height: unset;
     }
     &__title {
-      width: 160px;
+      width: 500px;
       // bottom: 125px;
 
       bottom: unset;
       left: 50%;
-      top: 40%;
+      top: 50%;
       transform: translate(-50%, -40%);
     }
 
@@ -127,7 +128,7 @@
 
       bottom: unset;
       left: 50%;
-      top: 60%;
+      top: 73%;
       transform: translate(-50%, -60%);
       a {
         padding: 17px 80px;
