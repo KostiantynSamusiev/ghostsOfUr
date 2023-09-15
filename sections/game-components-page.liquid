@@ -11,7 +11,7 @@
         6 Pewter Adventurers :
       </div>
       <div class="block__info">
-        {{ section.settings.Pewter }}
+        {{ section.settings.Pewter_Adventurers }}
       </div>
       <div class="block__pic">
         <img class="icon icon-cart-empty" src="{{ 'people.png' | asset_url }}" />
@@ -23,9 +23,8 @@
         100% Silicone Adventure Mat
       </div>
       <div class="block__info">
-        <p>Experience the utmost convenience and durability with our game mat, designed to enhance your gaming experience. This remarkable mat boasts exceptional qualities, being both washable and fold-able, ensuring easy maintenance and storage.</p>
-        <p>The mat itself is ingeniously crafted with a grid comprising 145 spaces, providing the ideal canvas for your immersive journey through Sumer. Measuring 27" x 27" in size, each square on the mat spans 2", perfectly accommodating the accompanying tiles. This precise fit ensures a seamless and engaging game play experience, where every move and decision unfolds with excitement and anticipation.</p>
-        <p>With our thoughtfully designed game mat, your adventure through Sumer becomes all the more captivating. Its durability, wash-ability, and fold-ability make it a practical choice, while the meticulously arranged grid and perfectly fitting squares contribute to an immersive and thrilling journey. Get ready to embark on an unforgettable gaming experience with our exceptional game mat!</p>
+        {{ section.settings.Silicone_Adventure_Mat }}
+
       </div>
       <div class="block__pic">
         <img class="icon icon-cart-empty" src="{{ 'pic-2.png' | asset_url }}" />
@@ -153,11 +152,15 @@
         "content": "My settings"
       }, {
         "type": "textarea",
-        "id": "Pewter",
+        "id": "Pewter_Adventurers",
         "label": "6 Pewter Adventurers :",
         "default": "type here"
+      }, {
+        "type": "textarea",
+        "id": "Silicone_Adventure_Mat",
+        "label": "Silicone Adventure Mat",
+        "default": "type here"
       }
-
     ],
     "blocks": [
       {
