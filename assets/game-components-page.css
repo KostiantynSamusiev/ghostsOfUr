@@ -62,8 +62,10 @@ h1 {
   }
   .game-components-page__block-continer .block__pic {
     height: 344px;
+    display: flex;
   }
   .game-components-page__block-continer .block__pic img {
-    width: 450px;
+    width: 24vw;
+    height: unset;
   }
 }
