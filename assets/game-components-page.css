@@ -33,6 +33,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 120% */
+  white-space: pre-line;
   margin-bottom: 45px;
 }
 .game-components-page__block-continer .block__pic {
