@@ -66,7 +66,7 @@ h1 {
     display: flex;
   }
   .game-components-page__block-continer .block__pic img {
-    width: 24vw;
+    width: 23vw;
     height: unset;
   }
 }
